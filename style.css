@@ -1,0 +1,89 @@
+body{
+	width:960px;
+	background-color: yellow;
+}
+
+header{
+	color:white;
+	background-color: #4aaaa5;
+	width:200px;
+	height:60px;
+	float:left;
+
+}
+
+h1, h2, h3{
+	font-family:'Georgia', Times, Times New Roman, serif;
+}
+
+h2{
+	color:#4aaaa5;
+}
+ 
+h3{
+	color:#4aaaa5;
+}
+
+p{
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:#777777;
+	width:400px;
+}
+
+a{
+	text-decoration:none;
+	color:#777777;
+}
+
+#main{
+	width:650px;
+	margin:auto;
+}
+
+#head{
+	width:650px;
+	height:60px;
+	border-bottom: 2px solid #777777;
+}
+
+#contents{
+	width:650px;
+	margin-top:20px;
+}
+
+#aboutme{
+	float:left;
+	width:360px;
+	border:1px solid #dddddd;
+	background-color: white;
+	padding-right:20px;
+	padding-left:20px;
+}
+
+#connect{
+	width:180px;
+	height:150px;
+	background-color: white;
+	border:1px solid #dddddd;
+	float:right;
+	text-align: center;
+	padding:10px;
+}
+
+#mePic{
+	padding-top:10px;
+}
+
+.borderR{
+	border-right:1px solid #dddddd;
+	padding-right:5px;
+}
+
+.navigationBar{
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	float:right;
+}
+
+.linkimg{
+	width:50px;
+}
