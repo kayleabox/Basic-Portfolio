@@ -1,6 +1,5 @@
 body{
 	width:960px;
-	background-color: yellow;
 }
 
 header{
@@ -12,76 +11,88 @@ header{
 
 }
 
-h1, h2, h3{
+h1, h2, h4{
 	font-family:'Georgia', Times, Times New Roman, serif;
 }
 
+h1{
+	text-align:center;
+}
 h2{
 	color:#4aaaa5;
+	border-bottom: 1.5px solid #dddddd;
+	padding-bottom: 10px;
 }
  
-h3{
+h4{
 	color:#4aaaa5;
+	border-bottom: 1.5px solid #dddddd;
+	padding-bottom: 10px;
 }
 
 p{
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color:#777777;
 	width:400px;
+	font-size: 80%;
 }
 
 a{
 	text-decoration:none;
 	color:#777777;
+	font-size:80%;
 }
 
 #main{
 	width:650px;
 	margin:auto;
+	padding:30px;
+	border-top:2px solid orange;
+	background-image: url("swirl_pattern.png");
 }
 
-#head{
-	width:650px;
+#heading{
+	width:650px !important;
 	height:60px;
-	border-bottom: 2px solid #777777;
+	margin:auto;
 }
 
 #contents{
-	width:650px;
-	margin-top:20px;
+	width:650px !important;
+	height:500px;
 }
 
 #aboutme{
 	float:left;
-	width:360px;
+	width:380px;
 	border:1px solid #dddddd;
 	background-color: white;
 	padding-right:20px;
 	padding-left:20px;
+	margin-top:20px;
 }
 
 #connect{
-	width:180px;
+	width:160px;
 	height:150px;
 	background-color: white;
 	border:1px solid #dddddd;
 	float:right;
 	text-align: center;
-	padding:10px;
+	padding:10px 20px;
+	margin-top:20px;
 }
 
 #mePic{
 	padding-top:10px;
 }
 
-.borderR{
-	border-right:1px solid #dddddd;
-	padding-right:5px;
-}
 
 .navigationBar{
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:#dddddd;
 	float:right;
+	padding-top:25px;
 }
 
 .linkimg{
