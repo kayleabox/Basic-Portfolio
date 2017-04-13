@@ -1,5 +1,6 @@
 body{
 	width:960px;
+	margin:0px;
 }
 
 header{
@@ -8,7 +9,13 @@ header{
 	width:200px;
 	height:60px;
 	float:left;
+}
 
+footer{
+	font-size: 80%;
+	height: 50px;
+	background-color: #777777;
+	border-top: 5px solid #4aaaa5;
 }
 
 h1, h2, h4{
@@ -30,6 +37,15 @@ h4{
 	padding-bottom: 10px;
 }
 
+h5{
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:white;
+	text-align: center;
+	font-weight: 400;
+	padding-top: 18px;
+	margin: 0px;
+}
+
 p{
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color:#777777;
@@ -37,10 +53,10 @@ p{
 	font-size: 14px;
 }
 
-a{
+nav a{
 	text-decoration:none;
 	color:#777777;
-	font-size:80%;
+	font-size:90%;
 }
 
 textarea{
@@ -56,7 +72,7 @@ textarea{
     resize: none;
 }
 
-.button{
+input[type=submit]{
 	width: 90px;
 	background-color: #4aaaa5;
 	color:white;
@@ -69,11 +85,13 @@ textarea{
 }
 
 #main{
-	width:650px;
-	margin:auto;
+	height:500px;
+	overflow: auto;
+	margin:0px;
 	padding:30px;
-	border-top:2px solid orange;
+	border-top:2px solid #cacaca;
 	background-image: url("swirl_pattern.png");
+	align-content: center;
 }
 
 #heading{
@@ -84,7 +102,8 @@ textarea{
 
 #contents{
 	width:650px !important;
-	height:500px;
+	margin:auto;
+	overflow: auto;
 }
 
 #pagetheme{
@@ -113,16 +132,6 @@ textarea{
 	padding-top:10px;
 }
 
-.submit{
-	width: 80px;
-	height: 20px;
-	background-color: #4aaaa5;
-	color:white;
-	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	text-align: center;
-	padding:5px;
-}
-
 .navigationBar{
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color:#dddddd;
@@ -131,7 +140,7 @@ textarea{
 }
 
 .linkimg{
-	width:50px;
+	width:45px;
 }
 
 input[type=text]{
@@ -145,3 +154,44 @@ input[type=text]{
 	padding:5px 20px;
 	resize: none;
 }
+
+.portimg{
+	width: 180px;
+	padding-right:10px;
+	padding-bottom: 10px;
+}
+
+
+div.portlink a{
+	color:white;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 180px;
+	height: 20px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #4aaaa5;
+	padding:5px 60px;
+	z-index: 1;
+}
+
+.floatright{
+	float: right;
+}
+.floatleft{
+	float: left;
+}
+.imgcontainer{
+	width: 180px;
+	height: 60px;
+	background-image: url("skipAway.jpg");
+	background-size: 180px;
+	background-repeat: no-repeat;
+	padding-top: 60px;
+}
+
+.clearfix::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
